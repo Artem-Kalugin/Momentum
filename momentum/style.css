@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-shadow: 4px 0px 40px rgba(0, 0, 0, 1);
+}
+.name,
+.city {
+  display: block;
+  min-width: 30px;
+}
+h4 {
+  font-weight: 500;
+}
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  border: none;
+  margin: 0 5px;
+  transition: all 0.25s ease-in-out;
+}
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+button img {
+}
+*[contenteditable="true"]:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  transition: background-image 1s ease-in-out;
+}
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.time {
+  font-size: 8rem;
+}
+.day {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  opacity: 0.8;
+}
+h1 {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+  .time {
+    font-size: 6rem;
+  }
+  .day {
+    font-size: 1rem;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+.name {
+  min-width: 30px;
+}
+.focus {
+  min-width: 30px;
+}
+.button__text {
+  font-size: 0.75rem;
+  color: white;
+  margin-top: 5px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 900px;
+}
